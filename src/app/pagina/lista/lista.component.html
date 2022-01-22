@@ -1,0 +1,16 @@
+<table class="table">
+    <tr>
+        <th>Nome</th>
+        <th>E-mail</th>
+        <th>Valor</th>
+        <th>Desconto</th>
+        <th>Fabricação</th>
+    </tr>
+    <tr>
+        <td>{{p1.nome | uppercase}}</td>
+        <td>{{p1.email | lowercase}}</td>
+        <td>{{p1.valor | currency:'BRL'}}</td>
+        <td>{{p1.desconto | percent}}</td>
+        <td>{{p1.fabricacao | date: 'fullDate'}}</td>
+    </tr>
+</table>
